@@ -1,0 +1,33 @@
+WWWSpod installation instructions
+---------------------------------
+
+Requirements:
+A web server running with PHP4.
+An installation directory that allows execution of cgi programs.
+A writable temporary directory .
+A c compiler.
+
+Compatibility:
+WWWSpod has only been tested on my debian 3 system running Apache 1.3 with
+mod_php. It is known to work in IE6+ and Mozilla 6+. Other browsers haven't
+been fully tested yet.
+
+Installation:
+Copy the install files into a subfolder of your document root. 
+Then edit config.h and config.php as all the user-configurable options
+are there. You must make sure the temporary directory specified in
+TEMP_PATH exists and is writable by the user your webserver runs as.
+
+Just run make to compile everything.
+
+If you want to see who's logged in from a command prompt, well, the easiest
+way at the moment is to use the console command included, wsctl. Use
+'wsctl --help' for more options.
+
+The first time you browse to webspod, it will warn you that a talker list file
+doesn't exist and attempt to grab it automatically from http://list.ewtoo.org
+This may also happen when the system is rebooted (since most systems will
+wipe /tmp at boot time, which is the default location for the list file)
+If it can't download this file, you can copy the included sample file 
+(webspod~talkers) which will probably be out of date, but is easy enough to
+edit, as it's plain text.

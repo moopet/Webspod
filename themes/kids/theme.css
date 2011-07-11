@@ -1,0 +1,170 @@
+body, td, tr, pre {
+	font-family:			courier;
+	font-size:				9pt;
+	background-color:		white;
+	color:					black;
+	scrollbar-face-color:	white;
+	scrollbar-arrow-color:	black;
+}
+
+a {
+	text-decoration:		none;
+	font-weight:			bold;
+	color:					blue;
+}
+
+a:hover {
+	text-decoration:		underline;
+}
+
+.normal {
+	color:					black;
+	font-size:				9pt;
+	font-family:			courier;
+	font-weight:			bold;
+}
+
+.sysmsg {
+	color:					#FF8000;
+	font-size:				9pt;
+	font-family:			courier;
+	font-weight:			bold;
+}
+
+.debug {
+	color:					blue;
+	font-size:				9pt;
+	font-family:			courier;
+	font-weight:			bold;
+}
+
+.error {
+	color:					red;
+	font-size:				9pt;
+	font-family:			courier;
+	font-weight:			bold;
+}
+
+.localecho {
+	color:					green;
+	font-size:				9pt;
+	font-family:			courier;
+	font-weight:			bold;
+}
+
+.server {
+	color:					#303030;
+	font-size:				9pt;
+	font-family:			courier;
+	font-weight:			bold;
+}
+
+.timestamp {
+	color:					blue;
+	font-size:				9pt;
+	font-family:			courier;
+	font-weight:			bold;
+}
+
+input.cmd_prompt {
+	background-color:		#F7D30C;
+	border:					1px solid black;
+	height:					20px;
+	width:					486px;
+	padding-left:			8px;
+	padding-top:			2px;
+	padding-right:			8px;
+	font-size:				14px;
+	font-weight:			bold;
+	font-family:			courier;
+	color:					black;
+}
+
+input.clock {
+	background-color:		#F7D30C;
+	border:					1px solid black;
+	text-align:				center;
+	height:					20px;
+	width:					85px;
+	padding-left:			8px;
+	padding-top:			2px;
+	padding-right:			8px;
+	font-size:				14px;
+	font-weight:			bold;
+	font-family:			courier;
+	color:					black;
+}
+
+table, tr, td {
+	vertical-align:			top;
+	background:				none;
+}
+
+body.input {
+	background-color:		#FA3c02;
+	color:					black;
+}
+
+body.topleft, td.topleft {
+	width:					20px;
+	height:					20px;
+	background:				url(topleft.gif) fixed;
+}
+
+body.top, td.top {
+	height:					20px;
+	padding-top:			3px;
+	text-align:				center;
+	font-weight:			bold;
+	color:					black;
+	font-family:			verdana;
+	font-size:				10px;
+	background:				url(top.gif) fixed;
+}
+
+body.topright, td.topright {
+	width:					20px;
+	height:					20px;
+	background:				url(topright.gif) fixed;
+}
+
+body.leftside, td.leftside {
+	width:					20px;
+	background:				url(left.gif) fixed;
+}
+
+body.rightside, td.rightside {
+	width:					20px;
+	background:				url(right.gif) fixed;
+}
+
+body.bottomleft, td.bottomleft {
+	width:					20px;
+	height:					20px;
+	background:				url(bottomleft.gif) fixed;
+}
+
+body.bottom, td.bottom {
+	height:					20px;
+	background:				url(bottom.gif) fixed;
+}
+
+body.bottomright, td.bottomright {
+	width:					20px;
+	height:					20px;
+	background:				url(bottomright.gif) fixed;
+}
+
+td.clock {
+	font-weight:			bold;
+	vertical-align:			top;
+}
+
+td.mark {
+	height:					16px;
+	color:					#201010;
+	font-weight:			bold;
+	background-color:		#A0A0A0;
+	border-top:				1px solid black;
+	border-bottom:			1px solid black;
+}

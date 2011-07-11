@@ -1,0 +1,109 @@
+body, td, tr, pre {
+	font-family:			courier;
+	font-size:				9pt;
+	background-color:		#E0EAF2;
+	color:					#303030;
+	scrollbar-face-color:	#E0EAF2;
+	scrollbar-arrow-color:	#303030;
+}
+
+a {
+	text-decoration:		none;
+	font-weight:			bold;
+	color:					#709020;
+}
+
+a:hover {
+	text-decoration:		underline;
+}
+
+body.input {
+	padding-left:			20px;
+}
+
+input.cmd_prompt {
+	width:					500px;
+	padding-left:			4px;
+	padding-top:			3px;
+	padding-right:			4px;
+	font-size:				12px;
+	font-weight:			bold;
+	font-family:			courier;
+	color:					#202020;
+}
+
+.normal {
+	background-color:		#E0EAF2;
+	color:					black;
+	font-size:				9pt;
+	font-family:			courier;
+	font-weight:			bold;
+}
+
+.debug {
+	background-color:		#E0EAF2;
+	color:					#FFFF00;
+	font-size:				9pt;
+	font-family:			courier;
+	font-weight:			bold;
+}
+
+.sysmsg {
+	background-color:		#E0EAF2;
+	color:					orange;
+	font-size:				9pt;
+	font-family:			courier;
+	font-weight:			bold;
+}
+
+.error {
+	background-color:		#E0EAF2;
+	color:					red;
+	font-size:				9pt;
+	font-family:			courier;
+	font-weight:			bold;
+}
+
+.localecho {
+	background-color:		#E0EAF2;
+	color:					green;
+	font-size:				9pt;
+	font-family:			courier;
+	font-weight:			bold;
+}
+
+.server {
+	background-color:		#E0EAF2;
+	color:					#303030;
+	font-size:				9pt;
+	font-family:			courier;
+	font-weight:			bold;
+}
+
+.timestamp {
+	background-color:		#E0EAF2;
+	color:					blue;
+	font-size:				9pt;
+	font-family:			courier;
+	font-weight:			bold;
+}
+
+input.clock {
+	width:					70px;
+	text-align:				centre;
+	font-weight:			bold;
+	color:					black;
+}
+
+body.top, td.top {
+	border-bottom:			1px solid black;
+}
+
+td.mark {
+	height:					16px;
+	color:					#201010;
+	font-weight:			bold;
+	background-color:		#A0A0A0;
+	border-top:				1px solid black;
+	border-bottom:			1px solid black;
+}

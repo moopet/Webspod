@@ -1,0 +1,197 @@
+body, td, tr, pre {
+	font-family:			courier;
+	font-size:				9pt;
+	background-color:		#F3F3F3;
+	color:					black;
+	scrollbar-face-color:	#F3F3F3;
+	scrollbar-arrow-color:	#303030;
+}
+
+a {
+	text-decoration:		none;
+	font-weight:			bold;
+	color:					#709020;
+}
+
+a:hover {
+	text-decoration:		underline;
+}
+
+.normal {
+	background-color:		#F3F3F3;
+	color:					black;
+	text-decoration:		none;
+	font-size:				9pt;
+	font-family:			courier;
+	font-weight:			bold;
+}
+
+.hinames {
+	background-color:		#F3F3F3;
+	text-decoration:		underline;
+	color:					black;
+	font-size:				9pt;
+	font-family:			courier;
+	font-weight:			bold;
+}
+
+.sysmsg {
+	background-color:		#F3F3F3;
+	color:					#FF8000;
+	font-size:				9pt;
+	font-family:			courier;
+	font-weight:			bold;
+}
+
+.debug {
+	background-color:		#F3F3F3;
+	color:					blue;
+	font-size:				9pt;
+	font-family:			courier;
+	font-weight:			bold;
+}
+
+.error {
+	background-color:		#F3F3F3;
+	color:					red;
+	font-size:				9pt;
+	font-family:			courier;
+	font-weight:			bold;
+}
+
+.localecho {
+	background-color:		#F3F3F3;
+	color:					green;
+	font-size:				9pt;
+	font-family:			courier;
+	font-weight:			bold;
+}
+
+.server {
+	background-color:		#F3F3F3;
+	color:					#303030;
+	font-size:				9pt;
+	font-family:			courier;
+	font-weight:			bold;
+}
+
+.timestamp {
+	background-color:		#F3F3F3;
+	color:					blue;
+	font-size:				9pt;
+	font-family:			courier;
+	font-weight:			bold;
+}
+
+input.cmd_prompt {
+	background:				url(cmd_prompt.gif);
+	background-color:		#F3F3F3;
+	border:					0px;
+	height:					20px;
+	width:					486px;
+	padding-left:			8px;
+	padding-top:			5px;
+	padding-right:			8px;
+	font-size:				12px;
+	font-weight:			bold;
+	font-family:			courier;
+	color:					black;
+}
+
+input.clock {
+	background:				url(clock.gif);
+	background-color:		#F3F3F3;
+	border:					0px;
+	text-align:				center;
+	height:					20px;
+	width:					85px;
+	padding-left:			8px;
+	padding-top:			5px;
+	padding-right:			8px;
+	font-size:				12px;
+	font-weight:			bold;
+	font-family:			courier;
+	color:					black;
+}
+
+table, tr, td {
+	vertical-align:			top;
+	background:				none;
+}
+
+body.input {
+	background:				url(bg.gif);
+	color:					black;
+}
+
+body.topleft, td.topleft {
+	width:					20px;
+	height:					20px;
+	background:				url(topleft.gif) fixed;
+}
+
+body.top, td.top {
+	height:					20px;
+	padding-top:			3px;
+	text-align:				center;
+	font-weight:			bold;
+	color:					black;
+	font-family:			verdana;
+	font-size:				10px;
+	background:				url(top.gif) fixed;
+}
+
+body.topright, td.topright {
+	width:					20px;
+	height:					20px;
+	background:				url(topright.gif) fixed;
+}
+
+body.leftside, td.leftside {
+	width:					20px;
+	background:				url(left.gif) fixed;
+}
+
+body.rightside, td.rightside {
+	width:					20px;
+	background:				url(right.gif) fixed;
+}
+
+body.bottomleft, td.bottomleft {
+	width:					20px;
+	height:					20px;
+	background:				url(bottomleft.gif) fixed;
+}
+
+body.bottom, td.bottom {
+	height:					20px;
+	background:				url(bottom.gif) fixed;
+}
+
+body.bottomright, td.bottomright {
+	width:					20px;
+	height:					20px;
+	background:				url(bottomright.gif) fixed;
+}
+
+td.clock {
+	font-weight:			bold;
+	vertical-align:			top;
+}
+
+input.ircemu_off {
+	background-color:		red;
+}
+
+input.ircemu_off {
+	background-color:		blue;
+}
+
+td.mark {
+	height:					16px;
+	color:					#201010;
+	font-weight:			bold;
+	background-color:		#A0A0A0;
+	border-top:				1px solid black;
+	border-bottom:			1px solid black;
+}

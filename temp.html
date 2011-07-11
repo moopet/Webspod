@@ -1,0 +1,26 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html>
+<head>
+<title> new document </title>
+<meta name="generator" content="editplus">
+<meta name="author" content="">
+<meta name="keywords" content="">
+<meta name="description" content="">
+</head>
+
+<body>
+<script>
+function EvalSound(soundobj) {
+  var thissound = eval("document." + soundobj);
+  thissound.Play();
+}
+</script>
+
+<embed src="themes/mastodon/bell.wav" autostart="false" hidden="true" name="bell">
+
+<form>
+<input type="button" value="Play Sound" onClick="EvalSound('bell')">
+</form>
+
+</body>
+</html>

@@ -1,0 +1,169 @@
+body, td, tr, pre {
+	font-family:			courier;
+	font-size:				9pt;
+	background-color:		#00555A;
+	color:					white;
+	scrollbar-face-color:	#007584;
+	scrollbar-arrow-color:	#A0B0B0;
+}
+
+a {
+	text-decoration:		none;
+	font-weight:			bold;
+	color:					#F04030;
+}
+
+a:hover {
+	text-decoration:		underline;
+}
+
+.normal {
+	background-color:		#00555A;
+	color:					white;
+	font-size:				9pt;
+	font-family:			courier;
+	font-weight:			bold;
+}
+
+.debug {
+	background-color:		#007584;
+	color:					#FFFF00;
+	font-size:				9pt;
+	font-family:			courier;
+	font-weight:			bold;
+}
+
+.hinames {
+	background-color:		#007584;
+	color:					#FFFF00;
+	font-size:				9pt;
+	font-family:			courier;
+	font-weight:			bold;
+}
+
+.sysmsg {
+	background-color:		#007584;
+	color:					orange;
+	font-size:				9pt;
+	font-family:			courier;
+	font-weight:			bold;
+}
+
+.error {
+	background-color:		#007584;
+	color:					red;
+	font-size:				9pt;
+	font-family:			courier;
+	font-weight:			bold;
+}
+
+.localecho {
+	background-color:		#007584;
+	color:					black;
+	font-size:				9pt;
+	font-family:			courier;
+	font-weight:			bold;
+}
+
+.server {
+	background-color:		#007584;
+	color:					white;
+	font-size:				9pt;
+	font-family:			courier;
+	font-weight:			bold;
+}
+
+.timestamp {
+	background-color:		#007584;
+	color:					yellow;
+	font-size:				9pt;
+	font-family:			courier;
+	font-weight:			bold;
+}
+
+input.cmd_prompt {
+	background-color:		#F0F0E0;
+	border:					1px solid #002040;
+	width:					500px;
+	padding-left:			4px;
+	padding-top:			3px;
+	padding-right:			4px;
+	font-size:				12px;
+	font-weight:			bold;
+	font-family:			courier;
+	color:					#202030;
+}
+
+body.input {
+	padding-left:			20px;
+	background-color:		#00555A;
+	color:					#C0C0C0;
+}
+
+body.topleft, td.topleft {
+	width:					20px;
+	height:					20px;
+}
+
+body.top, td.top {
+	height:					20px;
+	padding-top:			3px;
+	text-align:				right;
+	font-weight:			bold;
+	color:					#30F040;
+	font-family:			verdana;
+	font-size:				10px;
+}
+
+body.topright, td.topright {
+	width:					20px;
+	height:					20px;
+}
+
+body.leftside, td.leftside {
+	width:					20px;
+	background:				url(stripe.gif);
+}
+
+body.rightside, td.rightside {
+	width:					20px;
+}
+
+body.bottomleft, td.bottomleft {
+	width:					20px;
+	height:					20px;
+}
+
+body.bottom, td.bottom {
+	height:					20px;
+}
+
+body.bottomright, td.bottomright {
+	width:					20px;
+	height:					20px;
+}
+
+td.clock {
+	font-weight:			bold;
+	color:					#30F040;
+	background-color:		#F0F0E0
+	font-family:			verdana;
+	font-size:				11px;
+}
+
+input.clock {
+	width:					70px;
+	text-align:				centre;
+	font-weight:			bold;
+	color:					black;
+	border:					1px solid #002040;
+}
+
+td.mark {
+	height:					16px;
+	color:					#201010;
+	font-weight:			bold;
+	background-color:		#A0A0A0;
+	border-top:				1px solid black;
+	border-bottom:			1px solid black;
+}

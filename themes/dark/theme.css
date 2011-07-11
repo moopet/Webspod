@@ -1,0 +1,169 @@
+body, td, tr, pre {
+	font-family:			courier;
+	font-size:				9pt;
+	background-color:		black;
+	color:					#D0C0D0;
+	scrollbar-base-color:	#C0C0FF;
+	scrollbar-face-color:	#303030;
+	scrollbar-highlight-color:	#202020;
+	scrollbar-darkshadow-color:	#202020;
+	scrollbar-shadow-color:	#A0A0A0;
+	scrollbar-track-color:	#404040;
+}
+
+a {
+	text-decoration:		none;
+	font-weight:			bold;
+	color:					#FF30F0;
+}
+
+a:hover {
+	text-decoration:		underline;
+}
+
+.normal {
+	background-color:		black;
+	color:					white;
+	font-size:				9pt;
+	font-family:			courier;
+	font-weight:			bold;
+}
+
+.sysmsg {
+	background-color:		black;
+	color:					cyan;
+	font-size:				9pt;
+	font-family:			courier;
+	font-weight:			bold;
+}
+
+.debug {
+	background-color:		black;
+	color:					#FFFF00;
+	font-size:				9pt;
+	font-family:			courier;
+	font-weight:			bold;
+}
+
+.error {
+	background-color:		black;
+	color:					red;
+	font-size:				9pt;
+	font-family:			courier;
+	font-weight:			bold;
+}
+
+.localecho {
+	background-color:		black;
+	color:					seagreen;
+	font-size:				9pt;
+	font-family:			courier;
+	font-weight:			bold;
+}
+
+.server {
+	background-color:		black;
+	color:					white;
+	font-size:				9pt;
+	font-family:			courier;
+	font-weight:			bold;
+}
+
+.timestamp {
+	background-color:		black;
+	color:					yellow;
+	font-size:				9pt;
+	font-family:			courier;
+	font-weight:			bold;
+}
+
+input.cmd_prompt {
+	background-color:		#E0E0E0;
+	border:					0px;
+	width:					500px;
+	padding-left:			8px;
+	padding-top:			4px;
+	padding-right:			8px;
+	font-size:				12px;
+	font-weight:			bold;
+	font-family:			courier;
+	color:					#202030;
+}
+
+body.input {
+	padding-left:			20px;
+	color:					#C0C0C0;
+}
+
+body.topleft, td.topleft {
+	width:					20px;
+	height:					20px;
+	background:				url(topleft.gif);
+}
+
+body.top, td.top {
+	height:					20px;
+	padding-top:			3px;
+	text-align:				right;
+	font-weight:			bold;
+	color:					#30F040;
+	font-family:			verdana;
+	font-size:				10px;
+	background:				url(top.gif);
+}
+
+body.topright, td.topright {
+	width:					20px;
+	height:					20px;
+	background:				url(topright.gif);
+}
+
+body.leftside, td.leftside {
+	width:					20px;
+	background:				url(leftside.gif);
+}
+
+body.rightside, td.rightside {
+	width:					20px;
+	background:				url(rightside.gif);
+}
+
+body.bottomleft, td.bottomleft {
+	width:					20px;
+	height:					20px;
+	background:				url(bottomleft.gif);
+}
+
+body.bottom, td.bottom {
+	height:					20px;
+	background:				url(bottom.gif);
+}
+
+body.bottomright, td.bottomright {
+	width:					20px;
+	height:					20px;
+	background:				url(bottomright.gif);
+}
+td.clock {
+	text-align:				right;
+	font-weight:			bold;
+	color:					#30F040;
+	font-family:			verdana;
+	font-size:				10px;
+}
+
+input.clock {
+	width:					70px;
+	text-align:				centre;
+	font-weight:			bold;
+	color:					blue;
+}
+
+td.mark {
+	height:					16px;
+	color:					#201010;
+	font-weight:			bold;
+	background-color:		#A0A0A0;
+	border-top:				1px solid black;
+	border-bottom:			1px solid black;
+}
